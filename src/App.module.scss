@@ -1,8 +1,12 @@
+.app {
+  background-color: #C0C6CE;
+}
+
 .app__wrapper {
   display: flex;
   margin: 0 auto;
+  padding-top: 25px;
   width: 1390px;
-  border: 1px solid green;
   justify-content: space-between;
 }
 

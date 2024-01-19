@@ -1,4 +1,17 @@
 .skills__wrapper {
-  border: 1px solid orange;
+  background-color: #fff;
   width: 450px;
+  margin: 0 auto;
+}
+
+.skills__inner {
+  margin: 0 15px;
+
+  h2 {
+    display: flex;
+    span {
+      color: #6ea3ab;
+    }
+    gap: 10px;
+  }
 }

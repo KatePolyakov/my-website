@@ -10,22 +10,24 @@ import classes from './App.module.scss';
 
 function App() {
   return (
-    <div className={classes.app__wrapper}>
-      <div className={classes.wrapper__left}>
-        <AboutPage />
-        <SkillsPage />
-      </div>
-      <div className={classes.wrapper__right}>
-        <div className={classes.right__top}>
-          <div className={classes.right__top__left}>
-            <EducationPage />
-          </div>
-          <div className={classes.right__top__right}>
-            <WorkPage />
-          </div>
+    <div className={classes.app}>
+      <div className={classes.app__wrapper}>
+        <div className={classes.wrapper__left}>
+          <AboutPage />
+          <SkillsPage />
         </div>
-        <div className={classes.right__bottom}>
-          <ProjectsPage />
+        <div className={classes.wrapper__right}>
+          <div className={classes.right__top}>
+            <div className={classes.right__top__left}>
+              <EducationPage />
+            </div>
+            <div className={classes.right__top__right}>
+              <WorkPage />
+            </div>
+          </div>
+          <div className={classes.right__bottom}>
+            <ProjectsPage />
+          </div>
         </div>
       </div>
     </div>

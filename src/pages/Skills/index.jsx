@@ -1,9 +1,19 @@
+import React from 'react';
+
+import Icon from '../../icons/icon';
+
 import classes from './Skills.module.scss';
 
 const SkillsPage = () => {
   return (
     <div className={classes.skills__wrapper}>
-      <h1>Skills Page</h1>
+      <div className={classes.skills__inner}>
+        <h2>
+          <Icon icon="cogs" size={30} color="#6EA3AB" />
+          Skills
+        </h2>
+        
+      </div>
     </div>
   );
 };
