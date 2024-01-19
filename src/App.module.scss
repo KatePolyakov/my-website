@@ -1,0 +1,24 @@
+.app__wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 1390px;
+  border: 1px solid green;
+  justify-content: space-between;
+}
+
+.wrapper__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__right {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 925px;
+}
+
+.right__top {
+  display: flex;
+  justify-content: space-between;
+}
