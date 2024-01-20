@@ -55,6 +55,9 @@ const SkillsPage = () => {
           <button>
             <Icon icon="github1" size={45} />
           </button>
+          <button>
+            <Icon icon="jquery" size={45} />
+          </button>
         </div>
       </div>
     </div>

@@ -1,5 +1,35 @@
 .education__wrapper {
-  border: 1px solid yellow;
   display: flex;
-  width: 450px;
+  width: 455px;
+  background-color: #fff;
+}
+
+.education__inner {
+  margin: 16px 15px;
+
+  h2 {
+    display: flex;
+    gap: 10px;
+    margin-top: 0;
+  }
+  h4 {
+    color: grey;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  p {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    span {
+      color: #E7874D;
+    }
+    gap: 25px;
+  }
+
+  hr {
+    margin: 15px 0px;
+    border: none;
+    border-top: 0.3px solid #6ea3ab;
+  }
 }
