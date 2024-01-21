@@ -31,3 +31,36 @@
     border-top: 0.3px solid #6ea3ab;
   }
 }
+
+.modalEdu__inner {
+  margin-top: -320px;
+  margin-left: 30px;
+
+  svg {
+    background-color: #fff;
+    padding: 13px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+.modalWrk__inner {
+  margin-top: -243px;
+  margin-left: 30px;
+
+  svg {
+    background-color: #fff;
+    padding: 13px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+.modalEdu__inner, 
+.modalWrk__inner {
+  visibility: hidden;
+
+  @media (max-width: 930px) {
+    visibility: visible;
+  }
+}
