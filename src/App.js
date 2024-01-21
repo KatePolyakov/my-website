@@ -12,22 +12,16 @@ function App() {
   return (
     <div className={classes.app}>
       <div className={classes.app__wrapper}>
-        <div className={classes.wrapper__left}>
+        <div className={classes.wrapper__top}>
           <AboutPage />
-          <SkillsPage />
+          <div className={classes.top__right}>
+            <EducationPage />
+            <WorkPage />
+          </div>
         </div>
-        <div className={classes.wrapper__right}>
-          <div className={classes.right__top}>
-            <div className={classes.right__top__left}>
-              <EducationPage />
-            </div>
-            <div className={classes.right__top__right}>
-              <WorkPage />
-            </div>
-          </div>
-          <div className={classes.right__bottom}>
-            <ProjectsPage />
-          </div>
+        <div className={classes.wrapper__bottom}>
+          <SkillsPage />
+          <ProjectsPage />
         </div>
       </div>
     </div>

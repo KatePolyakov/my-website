@@ -3,6 +3,10 @@
   flex-direction: column;
   width: 450px;
   background-color: #fff;
+
+  @media (max-width: 450px) {
+    width: 100%;
+  }
 }
 
 .about__inner {

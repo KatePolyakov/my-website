@@ -1,7 +1,11 @@
 .education__wrapper {
   display: flex;
-  width: 455px;
+  width: 450px;
   background-color: #fff;
+
+  @media (max-width: 930px) {
+    display: none;
+  }
 }
 
 .education__inner {
